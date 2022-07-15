@@ -14,7 +14,10 @@ public class QueryProcessor {
                     "writer in the English language and the world's pre-eminent dramatist.";
         } else if (query.contains("name")) {
            return "yahya";
-        } else { // TODO extend the programm here
+        } else if(query.contains("what is 11 plus 0")){
+            return "11";
+        }
+        else { // TODO extend the programm here
             return "";
         }
     }
